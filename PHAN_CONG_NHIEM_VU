@@ -1,0 +1,19 @@
+# PHÂN CÔNG NHIỆM VỤ
+## Đề tài: Ứng dụng quản lý bảo hành sản phẩm
+**Lớp:** Python 04
+
+| Thành viên | Nhiệm vụ chính | File dự kiến |
+|---|---|---|
+| Ngọc Trâm | Quản lý khách hàng, sản phẩm; thêm, sửa, xóa, tìm kiếm dữ liệu | `models/khach_hang.py`, `models/san_pham.py` |
+| Thùy Trâm | Quản lý phiếu bảo hành, kiểm tra thời hạn bảo hành và lưu dữ liệu JSON | `models/phieu_bao_hanh.py`, `services/bao_hanh_service.py` |
+| Bích Ngọc | Quản lý kỹ thuật viên, lỗi sản phẩm, tiến độ sửa chữa và chi phí | `models/ky_thuat_vien.py`, `services/sua_chua_service.py` |
+| Thái Vỹ | Đăng nhập, phân quyền, thống kê, gọi API, xuất báo cáo và tích hợp chương trình | `services/auth_service.py`, `services/thong_ke_service.py`, `services/api_service.py`, `services/bao_cao_service.py` |
+
+### Quy ước làm việc
+1. Mỗi thành viên chịu trách nhiệm viết, kiểm tra và commit các file được phân công.
+2. Thống nhất tên lớp, tên thuộc tính, tên phương thức và cấu trúc dữ liệu trước khi tích hợp.
+3. Không tự ý ghi đè hoặc xóa phần code của thành viên khác.
+4. Kiểm tra chương trình trước khi đẩy mã nguồn lên GitHub.
+5. Mỗi thành viên phải hiểu và giải thích được phần việc của mình.
+
+**Lưu ý:** Bảng trên là phân công tham khảo. Nhóm cần điều chỉnh theo phân công thực tế và thống nhất giao diện giữa các lớp trước khi ghép code.
